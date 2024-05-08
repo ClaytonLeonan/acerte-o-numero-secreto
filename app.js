@@ -46,7 +46,6 @@ function gerarNumeroAleatorio() {
         return gerarNumeroAleatorio();
     } else {
         ListaNumerosSorteados.push(numeroEscolhido);
-        console.log(ListaNumerosSorteados)
         return numeroEscolhido;
     }
 }
